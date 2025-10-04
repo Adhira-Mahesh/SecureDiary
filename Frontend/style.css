@@ -1,0 +1,43 @@
+.inputs {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.container-md {
+  padding: 20px;
+  background-color: rgb(91, 207, 122);
+}
+
+.buttonss div {
+  display: inline;
+}
+
+.buttonss {
+  justify-content: space-between;
+
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* horizontal center */
+  align-items: center;
+  /* vertical center */
+  background: #3550db;
+  background: radial-gradient(circle, rgba(53, 80, 219, 1) 0%, rgba(77, 190, 154, 1) 26%, rgba(191, 60, 214, 1) 41%, rgba(217, 64, 168, 1) 66%, rgba(252, 70, 107, 1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
