@@ -6,5 +6,28 @@
   background-color: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+.container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 50%;
+}
+.buttons {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center; 
+}
+.container-md {
+  padding: 20px;
+  background-color: rgb(91, 207, 122);
 }
